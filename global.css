@@ -26,6 +26,10 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 /* Contenidor centrat */
 main {
     max-width: 1100px;
@@ -44,6 +48,10 @@ button {
     padding: 12px 20px;
     cursor: pointer;
     font-size: 16px;
+}
+
+button:hover {
+    background-color: #183e28;
 }
 
 footer {
