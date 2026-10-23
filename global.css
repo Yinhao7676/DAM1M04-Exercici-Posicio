@@ -1,2 +1,11 @@
+/* Estils comuns de les tres pàgines */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #222;
+}
 
-
+* {
+    box-sizing: border-box;
+}
