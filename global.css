@@ -36,3 +36,10 @@ main {
 h1, h2 {
     color: #245c3b;
 }
+
+footer {
+    background-color: #245c3b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
