@@ -37,7 +37,19 @@
             resize: vertical;
         }
 
+        .mapa {
+            background-color: #ddd;
+            padding: 50px 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
 
+        /* En pantalles petites posem una sola columna */
+        @media (max-width: 700px) {
+            .contacte {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 <body>
@@ -73,6 +85,11 @@
                 <p>Horari: de dilluns a divendres, de 10 a 20 h.</p>
                 <p>Telèfon: 900 000 000.</p>
                 <p>Vine a visitar-nos i descobreix la nostra roba.</p>
+                <div class="mapa">
+                    <strong>Roba FIL</strong>
+                    <p>Carrer de la Roba, 10</p>
+                    <p>Al costat de la plaça dels Fils, davant de la cafeteria El Botó.</p>
+                </div>
             </section>
         </div>
     </main>
